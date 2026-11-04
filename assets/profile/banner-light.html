@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- Source for banner-light.png: 1280x400 at 2x, for the org profile README. Adapted from build/social-preview.html. -->
+<html lang="en"><head><meta charset="utf-8"><title>Git Revenge banner</title><style>
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:100 900;src:url('file:///A:/GitRevenge/frontend/node_modules/@fontsource-variable/fraunces/files/fraunces-latin-full-normal.woff2')}
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:100 900;src:url('file:///A:/GitRevenge/frontend/node_modules/@fontsource-variable/fraunces/files/fraunces-latin-full-italic.woff2')}
+@font-face{font-family:'Caveat';font-weight:400 700;src:url('file:///A:/GitRevenge/frontend/node_modules/@fontsource-variable/caveat/files/caveat-latin-wght-normal.woff2')}
+@font-face{font-family:'JetBrains Mono';font-weight:100 800;src:url('file:///A:/GitRevenge/frontend/node_modules/@fontsource-variable/jetbrains-mono/files/jetbrains-mono-latin-wght-normal.woff2')}
+html,body{margin:0;width:1280px;height:400px;overflow:hidden;background:#faf6ef}
+.card{position:relative;width:1280px;height:400px;overflow:hidden;background:#faf6ef;color:#1a1614;font-family:'Fraunces',Georgia,serif}
+.blob{position:absolute;filter:blur(60px);mix-blend-mode:multiply}
+.r{width:520px;height:380px;right:-60px;top:-110px;background:#e24a8a;border-radius:45% 55% 50% 50%/55% 45% 55% 45%;opacity:0.26}
+.t{width:440px;height:300px;left:-140px;bottom:-170px;background:#3d8a9f;border-radius:55% 45% 40% 60%/45% 55% 45% 55%;opacity:0.3}
+.p{width:300px;height:220px;right:220px;bottom:-150px;background:#9a5e9e;border-radius:50% 50% 45% 55%;opacity:0.22}
+.copy{position:absolute;left:72px;top:50px;width:680px}
+.kicker{display:block;font-family:'Caveat',cursive;font-size:34px;color:#1a5b6e;transform:rotate(-2.5deg);transform-origin:left center;margin:0 0 6px 4px}
+h1{margin:0;font-size:104px;line-height:.98;font-weight:420;letter-spacing:-.035em;font-variation-settings:'SOFT' 50,'WONK' 1,'opsz' 144}
+h1 em{font-style:italic;font-weight:500;color:#cb0162}
+.lede{margin:20px 0 0;max-width:32ch;font-size:27px;line-height:1.32;color:#3a322c;font-variation-settings:'opsz' 36}
+.meta{display:block;margin-top:20px;font-family:'JetBrains Mono',monospace;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:#6b625a}
+.graph{position:absolute;right:70px;top:0;width:440px;height:400px}
+.pill{position:absolute;left:950px;top:26px;font-family:'JetBrains Mono',monospace;font-size:15px;letter-spacing:.04em;padding:5px 11px;border-radius:999px;background:#cb0162;color:#faf6ef}
+</style></head><body><div class="card">
+<div class="blob r"></div><div class="blob t"></div><div class="blob p"></div>
+<svg class="graph" viewBox="0 30 440 400" aria-hidden="true">
+<g fill="none" stroke-width="7" stroke-linecap="round">
+<path d="M150 -20 V660" stroke="#cb0162"/>
+<path d="M150 470 C150 420 250 430 250 380 V200 C250 160 150 165 150 130" stroke="#1a5b6e"/>
+<path d="M250 330 C250 300 340 300 340 270 V230" stroke="#6b3a6e"/>
+<path d="M150 600 C150 570 60 575 60 540 V400" stroke="#8a5a3c"/>
+<path d="M340 -20 V140 C340 175 250 170 250 200" stroke="#3d8a9f" opacity=".85"/>
+</g>
+<g stroke-width="6" fill="#faf6ef">
+<circle cx="150" cy="70" r="17" stroke="#cb0162" fill="#cb0162"/>
+<circle cx="150" cy="130" r="14" stroke="#cb0162"/>
+<circle cx="250" cy="250" r="14" stroke="#1a5b6e"/>
+<circle cx="340" cy="230" r="14" stroke="#6b3a6e"/>
+<circle cx="250" cy="330" r="14" stroke="#1a5b6e"/>
+<circle cx="150" cy="300" r="14" stroke="#cb0162"/>
+<circle cx="60" cy="400" r="14" stroke="#8a5a3c"/>
+<circle cx="340" cy="70" r="14" stroke="#3d8a9f"/>
+</g></svg>
+<span class="pill">main</span>
+<div class="copy">
+<span class="kicker">no cloud, no AI, just git</span>
+<h1>Git <em>Revenge</em></h1>
+<p class="lede">A fast, local-only desktop git client, built for very large repositories.</p>
+<span class="meta">Windows · macOS · Apache-2.0</span>
+</div></div></body></html>

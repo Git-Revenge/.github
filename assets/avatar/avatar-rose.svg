@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 64 64">
+  <!-- Git Revenge org avatar: the 64-grid merge flag from build/appicon-small.svg, centred on a full-bleed ground. GitHub rounds the corners. -->
+  <rect width="64" height="64" fill="#cb0162"/>
+  <g transform="translate(-1.5 -1)">
+    <path d="M11 8 H18 V58 H11 Z" fill="#faf6ef"/>
+    <path d="M18 11 C28 6 39 16 56 10 V39 C39 45 28 35 18 41 Z" fill="#faf6ef"/>
+    <path d="M24 19 C32 19 34 25.5 45 25.5 M24 32 C32 32 34 25.5 45 25.5" fill="none" stroke="#cb0162" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="46" cy="25.5" r="5.5" fill="#cb0162"/>
+  </g>
+</svg>
