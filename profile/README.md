@@ -9,6 +9,7 @@ Git Revenge is a desktop git client for Windows, macOS and Linux that stays fast
 
 Or install it with a package manager:
 
+- **Windows:** `winget install GitRevenge.GitRevenge`.
 - **macOS:** `brew install --cask git-revenge/tap/gitrevenge`, from [our tap](https://github.com/Git-Revenge/homebrew-tap).
 - **Ubuntu, Debian and RHEL:** `apt` or `dnf`, from the signed repositories at [packages.gitrevenge.com](https://packages.gitrevenge.com) ([source](https://github.com/Git-Revenge/packages)). The [install guide](https://gitrevenge.com/docs/guide/install#linux) has the one-time setup.
 
